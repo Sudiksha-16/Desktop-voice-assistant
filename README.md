@@ -90,4 +90,15 @@ To set up the Voice Assistant Project, follow these steps:
      - For macOS/Linux:
        ```bash
        source .venv/bin/activate
-       ```
+
+
+4. **Install Requirements**
+
+   - Install all the requirements given in **[requirements.txt](https://github.com/Sudiksha-16/Desktop-voice-assistant/blob/main/requirements.txt)** by running the command `pip install -r requirements.txt`
+
+5.  **Run the Project**
+  - Run the main script:
+    ```bash
+    python assistant.py
+    ```
+
