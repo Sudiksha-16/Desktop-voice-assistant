@@ -1,10 +1,14 @@
-# Voice Assistant Project
+## 🎙️ Desktop voice assistant
 
-## Overview
+## 🌟 Overview
 
 The Voice Assistant Project is a Python-based desktop application designed to provide a variety of functionalities through voice commands. This virtual assistant can perform tasks such as telling the time and date, telling jokes, searching Wikipedia, and more.
 
-## Features
+## 📌Built with
+
+<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+
+## 🚀 Features
 
 - **Voice Commands**: Interact with the assistant using voice commands.
 - **Time and Date**: Retrieve the current time and date.
@@ -16,7 +20,19 @@ The Voice Assistant Project is a Python-based desktop application designed to pr
 - **Memory**: Save and recall user-provided information.
 - **Translation**: Translate text into different languages.
 
-## Modules and Libraries Used
+ ## Requirements 📋
+
+- To run the Voice Assistant Project, you need to have the following software and libraries installed:
+
+### Software Requirements 🖥️
+
+- **Python**: Version 3.6 or higher is required. Python is the programming language used for the project.
+  - [Download Python](https://www.python.org/downloads/)
+
+- **Operating System**: The project is designed to run on Windows, but it can be adapted to other operating systems with minor modifications.
+
+
+## 📌 Modules and Libraries Used
 
 This project utilizes several Python libraries to achieve its functionality:
 
@@ -47,11 +63,31 @@ This project utilizes several Python libraries to achieve its functionality:
 - **`googletrans`**: A library for translating text using Google Translate API. Allows translation of text into different languages.
   - [Documentation](https://py-googletrans.readthedocs.io/en/latest/)
 
-## Installation
+## Installation 🚀
 
-To get started with the Voice Assistant Project, follow these steps:
+To set up the Voice Assistant Project, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/voice-assistant.git
-   cd voice-assistant
+   git clone <URL>
+   cd desktop-voice-assistant
+
+2. **Set up virtual environment**:
+     - For Windows:
+       ```bash
+       python -m venv .venv  
+
+       ```
+     - For macOS/Linux:
+       ```bash
+       python3 -m venv .venv
+
+3. **Activate the virtual environment**:
+     - For Windows:
+       ```bash
+       .venv\Scripts\activate
+       ```
+     - For macOS/Linux:
+       ```bash
+       source .venv/bin/activate
+       ```
