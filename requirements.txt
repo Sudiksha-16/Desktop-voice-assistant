@@ -1,0 +1,5 @@
+pyttsx3
+SpeechRecognition
+wikipedia-api
+pyautogui
+googletrans==4.0.0-rc1
